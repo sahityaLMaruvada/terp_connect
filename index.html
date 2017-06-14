@@ -11,6 +11,7 @@
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
@@ -18,8 +19,8 @@
 	<body>
 		<div id ="umd-frame" class="container">
 			<div id="umd-frame-header">
-				<a href="https://www.it.umd.edu/"><img src="dit-logo.png" alt="University of Maryland" id="umd-frame-logo" style="width:24%; margin:0 0 20px 58px" class="pull-left" /></a>
-			    <img src="Live-.png" class="center-block img-responsive" alt="Remote Assist Live Chat" id="Live-Chat-image">
+				<a href="https://www.it.umd.edu/"><img src="assets/dit-logo.png" alt="University of Maryland" id="umd-frame-logo" style="width:24%; margin:0 0 20px 58px" class="pull-left" /></a>
+			    <img src="assets/Live-.png" class="center-block img-responsive" alt="Remote Assist Live Chat" id="Live-Chat-image">
 			</div>
 			<nav class="navbar navbar-inverse" role="navigation">
 			  <!-- Brand and toggle get grouped for better mobile display -->
@@ -42,9 +43,9 @@
 			    <div class="col-sm-3 col-md-3 pull-right">
 			        <form class="navbar-form" role="search">
 			        <div class="input-group">
-			            <input type="text" class="form-control" placeholder="Search" name="q">
+			            <input type="text" class="form-control" placeholder="Search" name="Search" aria-label="Search">
 			            <div class="input-group-btn">
-			                <button class="btn btn-default" type="submit" style="height:34px"><i class="glyphicon glyphicon-search"></i></button>
+			                <button class="btn btn-default" type="submit" style="height:34px"><span class="glyphicon glyphicon-search"></span></button>
 			            </div>
 			        </div>
 			        </form>
@@ -96,7 +97,7 @@
 		<footer>
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-bottom:20px;">
-					<a href="https://it.umd.edu"><img alt="Terrapin Tech" class="img-responsive center-block" src="https://it.umd.edu/sites/divisionofit.umd.edu/files/UMDimages/homepage/dit-logo.png" style="margin-left:22%; width: 60%" /></a>
+					<a href="https://it.umd.edu"><img alt="Terrapin Tech" class="img-responsive center-block" src="assets/dit-logo.png" style="margin-left:22%; width: 60%" /></a>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="padding-bottom:20px;text-align:center">
 					<p style="margin: 0px; color: rgb(51, 51, 51); font-family:sans-serif ;font-size: 14px;"><span style="font-weight: 700;">Division of Information Technology</span></p>
@@ -106,12 +107,12 @@
 					<p>&nbsp;</p>
 				</div>
 				<div class="col-md-4 col-sm-12 col-xs-12 center-block img-margin">
-					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 " style="width: 13%; padding:2px;"><a href="https://www.facebook.com/DivisionofIT.UMD" target="_blank"><img alt="DIT on Facebook" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/Facbook-58x58.png" /></a></div>
-					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 " style="width: 13%; padding:2px;"><a href="https://twitter.com/ithelpumd" target="_blank"><img alt="DIT on Twitter" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/Twitter-58x58.png" /></a></div>
-					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 " style="width: 13%;padding:2px;"><a href="https://www.flickr.com/photos/148078255@N06/" target="_blank"><img alt="DIT on Flickr" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/Flicker-58x58.png" /></a></div>
-					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 " style="width: 13%;padding:2px;"><a href="https://www.instagram.com/umdit/" target="_blank"><img alt="DIT on Instagram" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/Instagram-58x58.png" /></a></div>
-					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 " style="width: 13%;padding:2px;"><a href="https://www.youtube.com/channel/UCwBRNidtjNfT1mPNtqWYVNg" target="_blank"><img alt="DIT on YouTube" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/YouTube-58x58.png" /></a></div>
-					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="width: 13%;padding: 2px;"><a href="https://www.linkedin.com/school/3638" target="_blank"><img alt="UMD on LinkedIn" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/LinkedIn-58x58.png" /></a></div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social-icons" ><a href="https://www.facebook.com/DivisionofIT.UMD" target="_blank"><img alt="DIT on Facebook" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/Facbook-58x58.png" /></a></div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social-icons" ><a href="https://twitter.com/ithelpumd" target="_blank"><img alt="DIT on Twitter" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/Twitter-58x58.png" /></a></div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social-icons" ><a href="https://www.flickr.com/photos/148078255@N06/" target="_blank"><img alt="DIT on Flickr" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/Flicker-58x58.png" /></a></div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social-icons" ><a href="https://www.instagram.com/umdit/" target="_blank"><img alt="DIT on Instagram" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/Instagram-58x58.png" /></a></div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social-icons" ><a href="https://www.youtube.com/channel/UCwBRNidtjNfT1mPNtqWYVNg" target="_blank"><img alt="DIT on YouTube" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/YouTube-58x58.png" /></a></div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 social-icons" style="width: 13%;padding: 2px;"><a href="https://www.linkedin.com/school/3638" target="_blank"><img alt="UMD on LinkedIn" class="img-responsive " src="https://it.umd.edu/sites/divisionofit.umd.edu/files/LinkedIn-58x58.png" /></a></div>
 				</div>
 			</div>
 		</footer>
